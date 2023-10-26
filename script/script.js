@@ -65,6 +65,7 @@ searchBtn.addEventListener("click", () => {
           recipe.style.display = "block";
         });
       })
+      // If user inputs a meal that is not in the provided list of meals the return value will be invalid input
       .catch(() => {
         result.innerHTML = `<h3>Invalid Input</h3>`;
       });
