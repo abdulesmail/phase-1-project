@@ -50,7 +50,7 @@ searchBtn.addEventListener("click", () => {
         let recipe = document.getElementById("recipe");
         let hideRecipe = document.getElementById("hide-recipe");
         let showRecipe = document.getElementById("show-recipe");
-
+        // Iterating over the collection of elements
         ingredients.forEach((i) => {
           let child = document.createElement("li");
           child.innerText = i;
