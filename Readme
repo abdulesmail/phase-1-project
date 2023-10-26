@@ -1,20 +1,20 @@
-# Recipe App
+ Recipe App
 
 An application that allows users to get the ingredients and the recipe of a meal.
 
-## Description
+ Description
 
 This is a simple application that provides a list of meals and allows the user to type  in the search box a meal of there choice and in return the application displays the image of the meal, its origin, ingredients and its recipe.
 
-## How to use
+ How to use
 
-## Requirements
+ Requirements
 
 1. A computer with a bash terminal and node installed.
 2. Access to the internet.
 
 
-# Installation process
+ Installation process
 
 1. Clone this repository using
 git clone git@github.com:abdul esmail/recipe-app.git
@@ -23,18 +23,18 @@ or by downloading a zip file of the code
 3. Navigate to the project folder on your bash terminal.
 
 
-## Technologies used 
+ Technologies used 
 
 HTML
 CSS
 JavaScript
 
-## Support and contact details
+ Support and contact details
 
 Incase of any query, need for collaboration or issues with the code, feel free to reach at me at abdul.esmail@student.moringaschool.com
 
 
-## License
+ License
 
 MIT License
 
