@@ -9,7 +9,7 @@ searchBtn.addEventListener("click", () => {
   if (userInp.length == 0) {
     result.innerHTML = `<h3>Input Field Cannot Be Empty</h3>`;
   } else {
-    fetch(url + userInp)   
+    fetch(url + userInp) // Fetching data from the provided url plus the users input in the searchbox  
       .then((response) => response.json())
       .then((data) => {
         let myMeal = data.meals[0];
