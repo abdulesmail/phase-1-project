@@ -58,7 +58,7 @@ searchBtn.addEventListener("click", () => {
           parent.appendChild(child);
           ingredientCon.appendChild(parent);
         });
-
+        // Added an event listener to hide the recipe of the selected dish when the user clicks on x button
         hideRecipe.addEventListener("click", () => {
           recipe.style.display = "none";
         });
