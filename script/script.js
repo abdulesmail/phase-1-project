@@ -62,6 +62,7 @@ searchBtn.addEventListener("click", () => {
         hideRecipe.addEventListener("click", () => {
           recipe.style.display = "none";
         });
+        // Added an event listener to display the recipe of the dish when the view recipe button is clicked
         showRecipe.addEventListener("click", () => {
           recipe.style.display = "block";
         });
