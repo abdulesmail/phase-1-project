@@ -30,6 +30,7 @@ searchBtn.addEventListener("click", () => {
             ingredients.push(`${measure} ${ingredient}`);
           }
         }
+        // Ingredients are displayed when the user inputs a meal in the search box
         console.log(ingredients);
 
         result.innerHTML = `
